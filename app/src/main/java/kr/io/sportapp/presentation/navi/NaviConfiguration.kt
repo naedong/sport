@@ -21,7 +21,8 @@ fun NaviConfiguration(
 ) {
     NavHost(
         navHostController,
-        NavigationItem.home.route) {
-
+        NavigationItem.home.route
+    ) {
+        SportScreen(paddingValues)
     }
 }
